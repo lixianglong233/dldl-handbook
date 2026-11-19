@@ -64,7 +64,7 @@ th{background:#f3f6fa;font-weight:600;color:#33475b;white-space:nowrap}
   table{font-size:12px!important}
   .card{padding:10px!important}
 }
-</style></head><body>
+</style><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#1f4e78"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="斗罗手册"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
 <header><h1>斗罗大陆 · 活动手册</h1>
 <span class="meta">配置 3125 · 活动 66 · 道具索引 189313 · 生成 2026-11-19 12:34</span></header>
 <div class="wrap">
@@ -522,4 +522,4 @@ document.querySelectorAll('.item').forEach(el=>{
   el.onclick=()=>{document.querySelectorAll('.item').forEach(x=>x.style.background='');
     el.style.background='#dbeafe';render(el.dataset.id);};
 });
-</script></body></html>
+</script><script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){});});}</script></body></html>
